@@ -1,0 +1,4 @@
+# 统一换行：避免 Windows 批处理在别的系统上被转成 LF 而失效
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh  text eol=lf
