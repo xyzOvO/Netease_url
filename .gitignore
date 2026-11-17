@@ -8,3 +8,10 @@ __pycache__
 *.pyc
 *.pyo
 *.pyd
+
+# 本地运行产物：下载的音频、运行日志
+downloads/
+*.log
+
+# 登录凭证，切勿提交；请参考 cookie.txt.example 自行创建
+cookie.txt
